@@ -69,6 +69,15 @@ a:hover {
 
 }
 
+.head2{
+  text-align: center;
+  background: url("images/contact.png") no-repeat top center;
+  background-size:cover;
+  overflow: hidden ;
+  padding-top: 60x;
+
+}
+
 header {
   text-align: center;
   background: url('images/space.jpg') no-repeat top center ;
