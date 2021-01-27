@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(114, 3, 124);
 }
 a:hover {
   color: #6633ff;
@@ -43,7 +43,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -52,7 +52,21 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white;
+  color: #0399ff;
+}
+
+.exp-header {
+  text-align: center;
+  background: url("images/pixels.jpg") no-repeat top center;
+  background-size:cover;
+  overflow: hidden ;
+  padding-top: 60x;
+  
+}
+
+.exp-header{
+  line-height: 1.5;
+
 }
 
 header {
@@ -85,8 +99,8 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background-color: white;
-  color: rgb(114, 3, 124) ;
+  color: white;
+  background-color: #0399ff ;
 }
 
 .location:hover {
@@ -104,8 +118,12 @@ transform: scale(1.2);
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #0399ff;
 }
+ .pix{
+border-top: 60px;
+
+ }
 
 ul.skills {
   padding: 0;
